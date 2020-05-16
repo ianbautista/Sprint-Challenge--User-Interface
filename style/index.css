@@ -257,19 +257,16 @@ footer nav a {
 
     .top-content {
         flex-direction: column;
-        border: 2px solid red;
         width: 100%;
     }
     .top-content .text-container {
         width: 100%;
-        border: 2px solid red;
         padding: 10px;
     }
 
     .middle-content {
         display: flex;
         flex-direction: column;
-        border: 2px solid red;
     }
 
     .middle-content h2 {
@@ -279,7 +276,6 @@ footer nav a {
 
     .middle-content .boxes {
         flex-direction: column;
-        border: 2px solid red;
     }
 
     .middle-content .boxes .box {
@@ -290,19 +286,16 @@ footer nav a {
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 2px solid red;
     }
 
     .bottom-content {
         flex-direction: column;
-        border: 2px solid red;
         width: 100%;
         margin: 0;
     }
 
     .bottom-content .text-container {
         width: 100%;
-        border: 2px solid red;
         padding: 10px;
     }
 
@@ -313,7 +306,6 @@ footer nav a {
 
     footer nav {
         flex-direction: column;
-        border: 2px solid red;
     }
 
 }
