@@ -56,11 +56,12 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -90,6 +91,7 @@ p {
 .nav-menu a {
     text-decoration: none;
     color: black;
+    font-size: 1.6rem;
 }
 
 .container {
@@ -109,6 +111,10 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content .text-container {
+    font-size: 1.6rem;
 }
 
 .middle-content {
@@ -133,6 +139,7 @@ p {
     /* background: black; */
     margin: 20px 2.5%;
     color: white;
+    font-size: 1.6rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,6 +193,7 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+    font-size: 1.6rem;
 }
 
 .bottom-content .text-container:last-child {
@@ -234,9 +242,9 @@ footer nav a {
         padding: 3px;
     }
     .header-image {
-    padding-top: 0;
-    padding-bottom: 10px;
-    margin: 0;
+        padding-top: 0;
+        padding-bottom: 10px;
+        margin: 0;
     }
 
     .header-image img {
@@ -244,7 +252,7 @@ footer nav a {
     }
 
     .container {
-    width: 100%;
+        width: 100%;
     }
 
     .top-content {
@@ -253,49 +261,49 @@ footer nav a {
         width: 100%;
     }
     .top-content .text-container {
-    width: 100%;
-    border: 2px solid red;
-    padding: 10px;
+        width: 100%;
+        border: 2px solid red;
+        padding: 10px;
     }
 
     .middle-content {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid red;
     }
 
     .middle-content h2 {
-    margin: 0 auto;
-    padding-bottom: 5px;
+        margin: 0 auto;
+        padding-bottom: 5px;
     }
 
     .middle-content .boxes {
-    flex-direction: column;
-    border: 2px solid red;
+        flex-direction: column;
+        border: 2px solid red;
     }
 
     .middle-content .boxes .box {
-    width: 100px;
-    height: 100px;
-    margin: 10px auto;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid red;
+        width: 100px;
+        height: 100px;
+        margin: 10px auto;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid red;
     }
 
     .bottom-content {
-    flex-direction: column;
-    border: 2px solid red;
-    width: 100%;
-    margin: 0;
+        flex-direction: column;
+        border: 2px solid red;
+        width: 100%;
+        margin: 0;
     }
 
     .bottom-content .text-container {
-    width: 100%;
-    border: 2px solid red;
-    padding: 10px;
+        width: 100%;
+        border: 2px solid red;
+        padding: 10px;
     }
 
     footer {
