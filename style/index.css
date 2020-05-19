@@ -215,6 +215,17 @@ p {
     padding-right: 0;
 }
 
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    padding: 4em;
+}
+
+.form-container label {
+    font-size: 1.6rem;
+}
+
 footer {
     width: 100%;
     background: black;
