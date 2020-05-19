@@ -420,6 +420,12 @@ footer nav a {
         min-height: 150px;
     }
 
+    .header-contact-image img{
+        object-fit: cover;
+        min-height: 0;
+        width: 100%;
+    }
+
     .container {
         width: 100%;
     }
